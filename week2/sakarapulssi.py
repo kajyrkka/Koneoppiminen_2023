@@ -15,7 +15,7 @@ def sakara(Fs,lkm):
 
 
 if __name__ == '__main__':
-    t,tulos = sakara(1000,30)
+    t,tulos = sakara(1000,3)
     plt.figure(1)
     plt.plot(t,tulos)
     plt.show()
